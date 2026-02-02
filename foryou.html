@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semangat UTBK! 💪</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            background: white;
+            border-radius: 20px;
+            padding: 50px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: #667eea;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .message-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 25px 0;
+            border-left: 5px solid #667eea;
+        }
+
+        .message-box p {
+            line-height: 1.8;
+            color: #333;
+            font-size: 1.05em;
+            margin-bottom: 15px;
+        }
+
+        .message-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight {
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .wishes {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 25px 0;
+            text-align: center;
+            border: 3px dashed #ff6b6b;
+        }
+
+        .wishes h2 {
+            color: #ff6b6b;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .wishes p {
+            font-size: 1.15em;
+            color: #333;
+            line-height: 1.8;
+            font-weight: 500;
+        }
+
+        .grateful {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 25px 0;
+            border-left: 5px solid #4facfe;
+        }
+
+        .grateful p {
+            line-height: 1.8;
+            color: #333;
+            font-size: 1.05em;
+            margin-bottom: 15px;
+        }
+
+        .emoji {
+            font-size: 1.5em;
+            display: inline-block;
+            animation: rotate 3s infinite;
+        }
+
+        @keyframes rotate {
+            0%, 100% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(-10deg);
+            }
+            75% {
+                transform: rotate(10deg);
+            }
+        }
+
+        .stars {
+            text-align: center;
+            font-size: 2em;
+            margin: 20px 0;
+            animation: sparkle 1.5s infinite;
+        }
+
+        @keyframes sparkle {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.5;
+                transform: scale(1.2);
+            }
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-style: italic;
+            font-size: 0.95em;
+        }
+
+        .quote {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+            margin: 30px 0;
+            padding: 20px;
+            border-top: 2px solid #eee;
+            border-bottom: 2px solid #eee;
+            font-size: 1.1em;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 25px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .wishes h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="emoji">🌟</span> Semangat Terus Ya! <span class="emoji">🌟</span></h1>
+        <div class="subtitle">Buat Fauzan i got little letter for u! 💪</div>
+
+        <div class="message-box">
+            <p>Halooo! <span class="emoji">👋</span></p>
+            <p>Niih yang mau ikut UTBK lagiii. Pasti rasanya kaya "duh harus ngulang lagi nih" kan? Tapi coba deh pikir gini: <span class="highlight">kamu udah pernah nyoba, jadi sekarang kamu tau medan pertempurannya kayak gimana</span>. Kebayang dong seberapa keren itu? 😎</p>
+            <p>Kamu punya <span class="highlight">second chance</span> yang nggak semua orang punya keberanian buat ambil. Itu udah keren banget sih menurutku!</p>
+            <p>Inget ya, <span class="highlight">gagal tuh bukan akhir dari segalanya</span>. Malah itu kayak tutorial level sebelum kamu beneran main gamenya. Sekarang kamu udah ngerti triknya, tinggal execute aja! 🎮</p>
+        </div>
+
+        <div class="stars">✨ ⭐ 🌟 ⭐ ✨</div>
+
+        <div class="wishes">
+            <h2>Wishes for ur luck! 🤲</h2>
+            <p><strong>Semoga kali ini kamu lolos di jurusan yang kamu mau!</strong></p>
+            <p>Semoga pas hari H nanti otakmu fresh, ingatanmu kuat, dan semua jawaban ngalir kayak air (anjay 😂). Terus pas pengumuman, semoga nama kamu nongol di situ dan kamu bisa teriak "YESSS!" 🎉</p>
+            <p>Pokoknya <span class="highlight">aku yakin banget kamu PASTI BISA!</span> Nggak becanda! 🔥</p>
+        </div>
+
+        <div class="grateful">
+            <p><span class="emoji">💙</span> Btw, jujur aja nih ya... kita kan baru kenal. Literally baru kenal. Dan sejujurnya <span class="highlight">aku cuma bisa bantu apapun yang emang bisa aku bantu, dan itu nggak banyak-banyak amat(malah keknya belum ada aku bantu kamu balik deh)</span> 😅</p>
+            <p>Tapi aku mau bilang <span class="highlight">MAKASIH BANGET</span> ya karena kamu udah mau dengerin aku curhat, dengerin keluh kesah aku yang mungkin kadang-kadang lebay juga wkwk. Serius deh, itu berarti banget! 🙏</p>
+            <p>Jadi ya gitu deh, walaupun aku nggak bisa bantuin ngerjain soal UTBK kamu atau apa (karena gamungkin juga yew 😂), tapi atleast <span class="highlight">aku bisa jadi tempat kamu cerita dan support system kamu (i guess..)</span>. Yang penting kamu tau, kamu nggak perlu ngerasa sendiri! ❤️</p>
+        </div>
+
+        <div class="quote">
+            "Sukses itu bukan tentang nggak pernah jatuh, tapi tentang seberapa cepet kamu bangkit lagi" 
+            <br><span style="font-size: 0.9em;">- kata orang bijak mana gitu</span>
+        </div>
+
+        <div class="message-box">
+            <p><strong>Pesan-pesan random dariku (dibaca ya!):</strong></p>
+            <p>🎯 Jangan ngoyo ampe stress! Santai tapi serius aja<br>
+            📚 Belajar dikit-dikit tapi rutin > SKS (kamu tau lah singkatannya 😂)<br>
+            🎧 Sesekali break, denger musik, main game, apapun deh biar fresh<br>
+            🍕 Makan yang bener, jangan lupa makan! (penting banget ini)<br>
+            😴 Tidur cukup! Otak kamu butuh istirahat buat nyerap materi<br>
+            🙏 Jangan lupa berdoa, sisanya usaha maksimal aja<br>
+            💪 Inget terus kenapa kamu mau masuk jurusan itu!</p>
+        </div>
+
+        <div class="stars">✨ 🌈 ✨</div>
+
+        <div class="footer">
+            <p><strong>Pokoknya gini deh...</strong></p>
+            <p>Kamu PASTI BISA! Aku percaya sama kamu. Seriously! 🤲</p>
+            <p>Kapanpun kamu butuh support atau pengen cerita, aku disini kok 💕</p>
+            <p style="margin-top: 25px; color: #667eea; font-size: 1.3em;"><strong>GASKEUN BROOO! 🔥🔥🔥</strong></p>
+            <p style="margin-top: 15px; font-size: 0.9em; color: #999;">P.S. Jangan lupa kabarin aku pas udah daftar, pas hari H, pas pengumuman ya! Aku penasaran! 😊</p>
+        </div>
+    </div>
+</body>
+</html>
